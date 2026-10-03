@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "session_id": "demo_session_001",
+  "correlation_id": "demo_correlation_001",
+  "device_id": "demo_device",
+  "household_id": "demo_household",
+  "firmware_version": "synthetic-no-device",
+  "model_version": "synthetic-manual-contract",
+  "sequence_number": 1,
+  "source": "device",
+  "data_kind": "simulated",
+  "timestamp": "2026-09-21T18:00:00+08:00",
+  "end_timestamp": "2026-09-21T18:00:10+08:00",
+  "duration_s": 10,
+  "clock_status": "unknown",
+  "clock_offset_ms": null,
+  "presence_state": "unknown",
+  "collection_state": "partial",
+  "observations": {
+    "shape": {
+      "value": "elongated",
+      "confidence": null,
+      "missing_reason": null,
+      "source": "adapter",
+      "model_version": "synthetic-manual-contract"
+    },
+    "color": {
+      "value": "red",
+      "confidence": null,
+      "missing_reason": null,
+      "source": "adapter",
+      "model_version": "synthetic-manual-contract",
+      "template_similarity": 0.72,
+      "similarity_scale": "unknown"
+    },
+    "odor": {
+      "value": null,
+      "confidence": null,
+      "missing_reason": "sensor_disabled",
+      "source": "adapter",
+      "model_version": "synthetic-manual-contract"
+    }
+  },
+  "temperature_c": null,
+  "humidity_pct": null,
+  "quality": {
+    "overall_confidence": 0,
+    "reasons": [
+      "synthetic_transport_test",
+      "manual_sampling_not_a_toileting_session",
+      "sensor_disabled"
+    ],
+    "session_kind": "manual_sampling",
+    "duration_semantics": "manual_sampling_seconds"
+  },
+  "member_candidates": []
+}

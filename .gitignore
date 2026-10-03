@@ -1,0 +1,16 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.demo/
+reader-outbox/
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.log
+.venv*/
+.DS_Store
+Thumbs.db
